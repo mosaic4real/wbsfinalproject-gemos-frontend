@@ -7,7 +7,6 @@ import Footer from "../components/Footer";
 import { mobile } from "../responsive";
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
-import { red } from "@material-ui/core/colors";
 
 
 const Container = styled.div`

@@ -1,5 +1,4 @@
 import {
-  FavoriteBorderOutlined,
   SearchOutlined,
   ShoppingCartOutlined,
 } from "@material-ui/icons";
