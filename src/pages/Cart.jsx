@@ -166,6 +166,7 @@ const Cart = () => {
      const makeRequest = async () => {
       
        try {
+         // eslint-disable-next-line
         const res = await userRequest.post("/checkout/payment", {
           tokenId : stripeToken.id,
           amount: cart.total * 100, 

@@ -11,7 +11,7 @@ import { useSelector } from 'react-redux';
 
 const App = () => {
 
-  
+  // eslint-disable-next-line
    const user = useSelector((state) => state.user && state.user.currentUser);
   
   return (
